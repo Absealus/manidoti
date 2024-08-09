@@ -25,9 +25,9 @@ ln -s $HOME/manidoti/rofi ~/.config
 ln -s $HOME/manidoti/sxhkd ~/.config
 ln -s $HOME/manidoti/Thunar ~/.config
 ln -s $HOME/manidoti/xfce4 ~/.config
-ln -s $HOME/manidoti/vim/vimrc ~/.vimrc
-ln -s $HOME/manidoti/vim/vim ~/.vim
-ln -s $HOME/manidoti/bash/profile ~/.profile
+ln -s $HOME/manidoti/vim/.vimrc ~/
+ln -s $HOME/manidoti/vim/.vim ~/
+ln -s $HOME/manidoti/bash/.profile ~/
 
 cp ~/manidoti/redshift/redshift.conf ~/.config
 
