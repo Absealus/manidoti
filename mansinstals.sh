@@ -27,7 +27,6 @@ ln -s $HOME/manidoti/Thunar ~/.config
 ln -s $HOME/manidoti/xfce4 ~/.config
 ln -s $HOME/manidoti/vim/.vimrc ~/
 ln -s $HOME/manidoti/vim/.vim ~/
-ln -s $HOME/manidoti/github/.gitconfig ~/
 ln -s $HOME/manidoti/bash/.profile ~/
 
 cp ~/manidoti/redshift/redshift.conf ~/.config
