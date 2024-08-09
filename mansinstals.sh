@@ -12,8 +12,6 @@ sudo ufw default allow outgoing
 
 sudo apt install thunar firefox-esr lxappearance unzip redshift -y
 
-mv ~/mansrepo/manidoti ~/manidoti
-
 rm -rf .config .profile .vim
 
 mkdir -p .config
@@ -42,8 +40,6 @@ chmod +x ~/.config/polybar/cpu-temp.sh
 mkdir -p .themes
 mkdir -p .fonts
 mkdir -p .icons
-
-mv mansrepo .mansrepo
 
 sudo apt purge zutty -y
 sudo apt autoremove --purge -y
