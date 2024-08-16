@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/ab/manidoti'
+let g:netrw_dirhist_5='/home/ab'
+let g:netrw_dirhist_4='/home/ab/manidoti/bspwm'
+let g:netrw_dirhist_3='/home/ab/manidoti'
+let g:netrw_dirhist_2='/home/ab'
+let g:netrw_dirhist_1='/home/ab/manidoti/bspwm'
+let g:netrw_dirhist_0='/home/ab/manidoti/polybar'
+let g:netrw_dirhist_9='/home/ab/manidoti'
+let g:netrw_dirhist_8='/home/ab'
+let g:netrw_dirhist_7='/home/ab/manidoti'
