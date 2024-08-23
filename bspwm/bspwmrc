@@ -9,12 +9,15 @@ pgrep -x dunst > /dev/null || dunst &
 pgrep -x lxpolkit > /dev/null || lxpolkit &
 pgrep -x redshift > /dev/null || redshift &
 pgrep -x openrgb > /dev/null || openrgb --profile "a" &
+pgrep -x blueman-applet > /dev/null || blueman-applet &
+pgrep -x nm-applet > /dev/null || nm-applet &
 xrandr -r 165
+
 
 bspc monitor -d  󱃢   
 # I II III IV V
 
-bspc config border_width         3
+bspc config border_width         2
 bspc config window_gap           10
 
 bspc config split_ratio          0.5
@@ -25,12 +28,13 @@ bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Firefox-esr desktop='^1' follow=on
 bspc rule -a Thunar desktop='^2' follow=on
 bspc rule -a kitty desktop='^2' follow=on
+bspc rule -a steam desktop='^3' follow=on
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-bspc config active_border_color \#8fbcbb
+bspc config active_border_color \#70faec
 bspc config normal_border_color \#000000
-bspc config focused_border_color \#8fbcbb
+bspc config focused_border_color \#70faec
 
 

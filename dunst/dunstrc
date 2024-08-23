@@ -33,7 +33,7 @@
     origin = top-right
 
     # Offset from the origin
-    offset = 10x52
+    offset = 15x55
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -87,10 +87,10 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 3
+    frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "8fbcbb"
+    frame_color = "#70faec"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -310,7 +310,7 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#272c36"
     foreground = "#ffffff"
-    frame_color = "#8fbcbb"
+    frame_color = "#70faec"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     icon = /home/ab/.config/dunst/w.png
@@ -318,7 +318,7 @@
 [urgency_normal]
     background = "#272c36"
     foreground = "#ffffff"
-    frame_color = "#8fbcbb"
+    frame_color = "#70faec"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
     icon = /home/ab/.config/dunst/w.png

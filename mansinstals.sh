@@ -10,11 +10,16 @@ sudo ufw enable
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 
-sudo apt install thunar thunar-archive-plugin firefox-esr lxappearance unzip redshift -y
+sudo apt install thunar thunar-archive-plugin firefox-esr lxappearance redshift -y
+
+sudo apt install network-manager-gnome --no-install-recommends --no-install-suggests -y
+sudo mv /etc/network/interfaces /etc/network/interfaces.bak
+
+sudo apt install blueman -y
 
 rm -rf .config .profile .vim
 
-mkdir -p .config
+mkdir -p .config .config/OpenRGB
 
 ln -s $HOME/manidoti/bspwm ~/.config
 ln -s $HOME/manidoti/dunst ~/.config
@@ -27,6 +32,7 @@ ln -s $HOME/manidoti/Thunar ~/.config
 ln -s $HOME/manidoti/xfce4 ~/.config
 ln -s $HOME/manidoti/vim/.vimrc ~/
 ln -s $HOME/manidoti/vim/.vim ~/
+ln -s $HOME/manidoti/openrgb/a.orp ~/.config/OpenRGB/
 ln -s $HOME/manidoti/bash/.profile ~/
 
 cp ~/manidoti/redshift/redshift.conf ~/.config
